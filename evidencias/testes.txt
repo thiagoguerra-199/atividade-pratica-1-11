@@ -1,19 +1,6 @@
-Testes pela interface do navegador - 1/11/2026
-API utilizada: https://atividade-pratica-1.onrender.com
+Testes manuais - 1/11/2026
 
-1. Abertura: o catálogo carregou os cinco produtos da API. O console não mostrou erros durante a consulta inicial.
-   Captura: 01-lista.jpg
-2. Pesquisa: digitar mouse mostrou somente Mouse sem fio e o contador mudou para 1.
-   Captura: 02-pesquisa.jpg
-3. Detalhes: clicar em Ver detalhes abriu o painel com categoria e preço do mouse.
-   Captura: 03-detalhes.jpg
-4. Fechamento: clicar em Fechar detalhes ocultou o painel e manteve a pesquisa.
-   Captura: 04-fechar-detalhes.jpg
-5. Lista vazia: digitar zzzz mostrou zero produtos e Nenhum produto encontrado.
-   Captura: 05-lista-vazia.jpg
-6. Limpar a pesquisa: os cinco produtos voltaram à lista sem atualizar a página.
-7. Falha de conexão: o endereço da API foi temporariamente alterado para uma porta sem servidor. A tela mostrou a mensagem de erro HTTP 502 retornada pelo proxy.
-   Captura: 06-erro-api.jpg
-8. Recuperação: após restaurar o endereço do Render e atualizar, os cinco produtos foram carregados novamente.
-
-Os cenários foram conferidos pela interface do navegador, com preenchimento dos campos e cliques nos botões. O servidor público do Render não foi interrompido no teste de erro. O endereço real foi restaurado ao concluir.
+01-catalogo.png: catálogo carregado com cinco produtos.
+02-pesquisa.png: pesquisa por mouse, com um produto encontrado.
+03-detalhes.png: painel aberto com os detalhes do mouse.
+04-lista-vazia.png: pesquisa por zz, sem produtos encontrados.
